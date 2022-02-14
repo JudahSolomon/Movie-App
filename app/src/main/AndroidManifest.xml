@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anushka.tmdbclient">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".presentation.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/img"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".presentation.activities.OnBoardingActivity" />
+        <activity android:name=".presentation.activities.RegisterActivity" />
+        <activity android:name=".presentation.activities.SignInActivity" />
+        <activity
+            android:name=".presentation.activities.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".presentation.artist.ArtistActivity" />
+        <activity android:name=".presentation.tv.TvShowActivity" />
+        <activity android:name=".presentation.movie.MovieActivity" />
+        <activity android:name=".presentation.activities.HomeActivity" />
+
+    </application>
+
+</manifest>

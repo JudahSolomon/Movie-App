@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Movie App</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+
+    <string name="heading_one">Get the Latest war Movies</string>
+    <string name="heading_two">Get the Latest Tv Shows for free</string>
+    <string name="heading_three">Know the Artists of your favorite movies </string>
+
+
+    //Description
+
+    <string name="desc_three">Want to have some quality time with your family.....</string>
+    <string name="desc_fourth">Tired and want some good movies to relax? we are here for you</string>
+    <string name="enter_email">Enter Email</string>
+</resources>

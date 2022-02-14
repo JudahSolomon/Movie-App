@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    app:flow_horizontalAlign="center">
+
+
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/heading_one"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="34sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleImage" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/textdeccription"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="30dp"-->
+<!--        android:fontFamily="@font/poppins"-->
+<!--        android:text="@string/desc_one"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/colorWhite"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/texttitle"/>-->
+
+    <ImageView
+        android:id="@+id/titleImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/troy_movie"
+        android:contentDescription="TODO" />
+
+</LinearLayout>
+</layout>
