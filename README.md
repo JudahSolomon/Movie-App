@@ -2,7 +2,7 @@
 this is an Android App that gets list of Movies Tv Shows, and Artist from the TMDB website using Retrofit
 
 
-##Libraries Used:
+# Libraries Used:
  DATA BINDING, RETROFIT API,
  ROOM DATABASE, DAGGER HILT,
  GLIDE, KOTLIN COEOURTEENS,
